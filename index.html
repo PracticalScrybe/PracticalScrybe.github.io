@@ -1,8 +1,93 @@
 <!DOCTYPE html>
 <html>
 <title>Projekt Portfolio</title>
-<head></head>
+
+<head>
+    <link rel="stylesheet" href="CSS\PortfolioFormat.css">  
+    <script type="text/javascript" src="JS/content.json" async></script>
+    <script type="text/javascript" src="JS/PortfolioFunc.js" async></script>
+</head>
+
 <body>
-    <a href="portfolio.html"> Portfolio </a>
+
+<div>
+    <select id="language">
+        <option value=0>English</option>
+        <option value=1>Deutsch</option>
+    </select>
+   
+</div>
+<div class="centerfocus">
+    <div class = grid>
+
+        <div class = projectbar>
+            <div id = "items" class = "PortfolioFormat vertarrange">
+                <span class="buttontitle">Ongoing Projects</span>
+                <button>
+                    <div class='buttonsize'><img src="../images/placeholder.jpg" alt="../images/placeholder.jpg"></div>
+                    <span class='buttontext'>Portfolio</span>
+                </button>    
+                <button>
+                    <vertarrange>
+                        <div class='buttonsize'><img src="../images/placeholder.jpg" alt="../images/placeholder.jpg"></div>
+                        <span class='buttontext'>Of the Deep End</span>
+                    </vertarrange>
+                </button>
+                <span class="buttontitle">Finished Projects</span>
+                <button>
+                    <vertarrange>
+                        <div class='buttonsize'><img src="../images/placeholder.jpg" alt="../images/placeholder.jpg"></div>
+                        <span class='buttontext'>I am not inigo montoya, prepare to die anyway!</span>
+                    </vertarrange>
+                </button>              
+            </div>
+        </div>
+        <div class = projectblurb>
+            <div class="container">
+                <iframe
+                    src="..\HTML\Portfolio.html"
+                    name="targetframe"
+                    allowTransparency="true"
+                    scrolling="yes"
+                    frameborder="0"
+                    height=400px
+                >
+                </iframe>
+
+                <img src="../images/placeholder.jpg" alt="../images/placeholder.jpg" class="landscape">
+                <div class = try>
+                    <div class = "text">
+                        <span id="text0">
+                                    According to all known laws of aviation, <br>
+                                    there is no way a bee should be able to fly. <br>
+                                    Its wings are too small to get <br>
+                                    its fat little body off the ground. <br>
+                                    The bee, of course, flies anyway <br>
+                                    because bees don't care <br>
+                                    what humans think is impossible. <br>
+                        </span>  
+                    </div>
+                </div>
+                
+                <div class = try>
+                    <div class = "text">
+                        <span id="text1">
+                                    According to all known laws of aviation, <br>
+                                    there is no way a bee should be able to fly. <br>
+                                    Its wings are too small to get <br>
+                                    its fat little body off the ground. <br>
+                                    The bee, of course, flies anyway <br>
+                                    because bees don't care <br>
+                                    what humans think is impossible. <br>
+                        </span>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
 </body>
-</html>
+</html> 
