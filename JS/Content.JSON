@@ -1,0 +1,63 @@
+{
+"language":
+    [{
+        "deutsch":
+        [{
+            "projects":
+            [{
+                "ongoing": 
+                [
+                    {
+                    "title": "Portfolio",
+                    "description":"blurb"
+                    },
+                    {
+                    "title": "Of the Deep End",
+                    "description":"blurb"
+                    }
+                ],
+                "Finished": 
+                [
+                    {
+                    "title":"Fussball Manager",
+                    "description":"blurb"
+                    },
+                    {
+                    "title":"Animieren einer Komplexen Figur", 
+                    "description":"blurb"
+                    }
+                ]
+            }]
+        }],
+
+        "english":
+        [{
+            "projects":
+            [{
+                "ongoing": 
+                [
+                    {
+                    "title": "Portfolio",
+                    "description":"blurb"
+                    },
+                    {
+                    "title": "Of the Deep End",
+                    "description":"blurb"
+                    }
+                ],
+                "Finished": 
+                [
+                    {
+                    "title":"Football Manager",
+                    "description":"blurb"
+                    },
+                    {
+                    "title":"Animation of a Complex Figure",
+                    "description":"blurb"
+                    }
+                ]
+            }]
+        }]
+        
+    }]
+}
