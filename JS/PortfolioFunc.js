@@ -17,6 +17,7 @@ function adjust()
 {
 
 }
+
 //method to load text
 function loadButton()
 {
@@ -36,5 +37,7 @@ function animate()
 }
 
 {
-
+    fetch("./JS/Content.json")
+        .then((response) => response.json())
+        .then((json) => console.log(json));
 }
