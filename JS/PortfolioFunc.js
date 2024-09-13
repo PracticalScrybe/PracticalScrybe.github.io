@@ -1,7 +1,7 @@
 var drop = document.getElementById("language");
 var language = drop.options[drop.selectedIndex];
 var flip = false;
-const content = {
+var content = {
     "projects":
         {
             "language":
