@@ -91,6 +91,7 @@ async function getProjects()
     const content = await response.json();
     console.log(content);
     return content
+    intentional error to verify comments are removed from code
 }*/
 
 function lighten(str)
