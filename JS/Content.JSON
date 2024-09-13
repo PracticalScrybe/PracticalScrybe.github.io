@@ -1,9 +1,9 @@
 {
-"language":
+"projects":
     [{
-        "deutsch":
+        "language":
         [{
-            "projects":
+            "deutsch":
             [{
                 "ongoing": 
                 [
@@ -27,13 +27,12 @@
                     "description":"blurb"
                     }
                 ]
-            }]
-        }],
+            }],
 
-        "english":
-        [{
-            "projects":
+
+            "english":
             [{
+        
                 "ongoing": 
                 [
                     {
