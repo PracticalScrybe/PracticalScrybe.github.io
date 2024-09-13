@@ -1,7 +1,69 @@
 var drop = document.getElementById("language");
 var language = drop.options[drop.selectedIndex];
 var flip = false;
-const content = getProjects();
+const content = {
+    "projects":
+        {
+            "language":
+            {
+                "deutsch":
+                {
+                    "ongoing": 
+                    [
+                        {
+                        "title": "Portfolio",
+                        "description":"blurb"
+                        },
+                        {
+                        "title": "Of the Deep End",
+                        "description":"blurb"
+                        }
+                    ],
+                    "finished": 
+                    [
+                        {
+                        "title":"Fussball Manager",
+                        "description":"blurb"
+                        },
+                        {
+                        "title":"Animieren einer Komplexen Figur", 
+                        "description":"blurb"
+                        }
+                    ]
+                },
+    
+    
+                "english":
+                {
+            
+                    "ongoing": 
+                    [
+                        {
+                        "title": "Portfolio",
+                        "description":"blurb"
+                        },
+                        {
+                        "title": "Of the Deep End",
+                        "description":"blurb"
+                        }
+                    ],
+                    "finished": 
+                    [
+                        {
+                        "title":"Football Manager",
+                        "description":"blurb"
+                        },
+                        {
+                        "title":"Animation of a Complex Figure",
+                        "description":"blurb"
+                        }
+                    ]
+                }
+            }
+            
+        }
+    };
+
 fetch("./JS/Content.json")
     .then(res => 
     {
