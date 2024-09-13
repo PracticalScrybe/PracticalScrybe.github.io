@@ -64,7 +64,7 @@ const content = {
         }
     };
 
-fetch("./JS/Content.json")
+/*fetch("./JS/Content.json")
     .then(res => 
     {
         if (!res.ok)
@@ -91,7 +91,7 @@ async function getProjects()
     const content = await response.json();
     console.log(content);
     return content
-}
+}*/
 
 function lighten(str)
 {
