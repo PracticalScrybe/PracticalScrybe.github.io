@@ -1,16 +1,21 @@
 var drop = document.getElementById("language");
 var language = drop.options[drop.selectedIndex].text;
 var flip = false;
-const response = await fetch("./JS/Content",
-    {
-    headers:
-    {
-      'Accept': 'application/json'
-    }
-  });
-const content = await response.json();
-console.log(content);
+const content = getProjects();
 
+async function getProjects()
+{
+    const response = await fetch("./JS/Content",
+        {
+        headers:
+        {
+          'Accept': 'application/json'
+        }
+      });
+    const content = await response.json();
+    console.log(content);
+    return content
+}
 
 function lighten(str)
 {
@@ -24,7 +29,7 @@ function adjust()
 }
 
 //method to load text
-function loadButtons(stats)
+async function loadButtons(stats)
 {
     //ongoing and finished
     for(const stat of stats)
