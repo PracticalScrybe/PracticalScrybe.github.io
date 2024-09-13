@@ -3,8 +3,7 @@
 <title>Projekt Portfolio</title>
 
 <head>
-    <link rel="stylesheet" href="CSS\PortfolioFormat.css">  
-    <script type="text/javascript" src="JS/content.json" async></script>
+    <link rel="stylesheet" href="CSS\PortfolioFormat.css">
     <script type="text/javascript" src="JS/PortfolioFunc.js" async></script>
 </head>
 
@@ -12,8 +11,8 @@
 
 <div>
     <select id="language">
-        <option value=0>English</option>
-        <option value=1>Deutsch</option>
+        <option value="english">English</option>
+        <option value="deutsch">Deutsch</option>
     </select>
    
 </div>
@@ -22,24 +21,30 @@
 
         <div class = projectbar>
             <div id = "items" class = "PortfolioFormat vertarrange">
-                <span class="buttontitle">Ongoing Projects</span>
-                <button>
-                    <div class='buttonsize'><img src="/images/placeholder.jpg" alt="/images/placeholder.jpg"></div>
-                    <span class='buttontext'>Portfolio</span>
-                </button>    
-                <button>
-                    <vertarrange>
-                        <div class='buttonsize'><img src="/images/placeholder.jpg" alt="/images/placeholder.jpg"></div>
-                        <span class='buttontext'>Of the Deep End</span>
-                    </vertarrange>
-                </button>
-                <span class="buttontitle">Finished Projects</span>
-                <button>
-                    <vertarrange>
-                        <div class='buttonsize'><img src="/images/placeholder.jpg" alt="/images/placeholder.jpg"></div>
-                        <span class='buttontext'>I am not inigo montoya, prepare to die anyway!</span>
-                    </vertarrange>
-                </button>              
+                <div id = "ongoing" class = "PortfolioFormat vertarrange">
+                    <span class="buttontitle">Ongoing Projects</span>
+                    <button>
+                        <vertarrange>
+                            <div class='buttonsize'><img src="/images/placeholder.jpg" alt="/images/placeholder.jpg"></div>
+                            <span class='buttontext'>Portfolio</span>
+                        </vertarrange>
+                    </button>    
+                    <button>
+                        <vertarrange>
+                            <div class='buttonsize'><img src="/images/placeholder.jpg" alt="/images/placeholder.jpg"></div>
+                            <span class='buttontext'>Of the Deep End</span>
+                        </vertarrange>
+                    </button>
+                </div>
+                <div id = "ongoing" class = "PortfolioFormat vertarrange">
+                    <span class="buttontitle">Finished Projects</span>
+                    <button>
+                        <vertarrange>
+                            <div class='buttonsize'><img src="/images/placeholder.jpg" alt="/images/placeholder.jpg"></div>
+                            <span class='buttontext'>I am not inigo montoya, prepare to die anyway!</span>
+                        </vertarrange>
+                    </button>  
+                </div>              
             </div>
         </div>
         <div class = projectblurb>
