@@ -10,69 +10,37 @@
 <body>
 <div>
     <select id="language">
-        <option value="english">English</option>
-        <option value="deutsch">Deutsch</option>
+        <option value="deutsch" onclick="updateLanguage(this, event)">Deutsch</option>
+        <option value="english" onclick="updateLanguage(this, event)" selected="true">English</option>
     </select>
    
 </div>
 <div class="centerfocus">
     <div class = grid>
-
         <div class = projectbar>
             <div id = "items" class = "PortfolioFormat vertarrange">
                 <div id = "ongoing" class = "PortfolioFormat vertarrange">
                     <span class="buttontitle">Ongoing Projects</span>
-                    <button>
-                        <vertarrange>
-                            <div class='buttonsize'><img src="/images/placeholder.jpg" alt="/images/placeholder.jpg"></div>
-                            <span class='buttontext'>Portfolio</span>
-                        </vertarrange>
-                    </button>    
-                    <button>
-                        <vertarrange>
-                            <div class='buttonsize'><img src="/images/placeholder.jpg" alt="/images/placeholder.jpg"></div>
-                            <span class='buttontext'>Of the Deep End</span>
-                        </vertarrange>
-                    </button>
                 </div>
-                <div id = "ongoing" class = "PortfolioFormat vertarrange">
+                <div id = "finished" class = "PortfolioFormat vertarrange">
                     <span class="buttontitle">Finished Projects</span>
-                    <button>
-                        <vertarrange>
-                            <div class='buttonsize'><img src="/images/placeholder.jpg" alt="/images/placeholder.jpg"></div>
-                            <span class='buttontext'>I am not inigo montoya, prepare to die anyway!</span>
-                        </vertarrange>
-                    </button>  
                 </div>              
             </div>
         </div>
         <div class = projectblurb>
             <div class="container">
-                <img src="/images/placeholder.jpg" alt="/images/placeholder.jpg" class="landscape">
-                <div class = try>
+                <img id = "animation" src="images/placeholder.png" alt="placeholder" class="landscape">
+                <div>
                     <div class = "text">
                         <span id="text0">
-                                    According to all known laws of aviation, <br>
-                                    there is no way a bee should be able to fly. <br>
-                                    Its wings are too small to get <br>
-                                    its fat little body off the ground. <br>
-                                    The bee, of course, flies anyway <br>
-                                    because bees don't care <br>
-                                    what humans think is impossible. <br>
+                            Something would be amiss if I had excluded this Portfolio. I programmed it using HTML, CSS and Javascript as well as created the image to pair with it. I feel it speaks mainly for itself, therefore I shall keep it brief. I enjoyed this project for what I could learn from it and all the tricky challenges it presented and even if it took me initially roughly a week to complete it to a working order. I'll look forward to revisiting my Portfolio soon.<br>
                         </span>  
                     </div>
-                </div>
-                
-                <div class = try>
+                </div>                
+                <div>
                     <div class = "text">
                         <span id="text1">
-                                    According to all known laws of aviation, <br>
-                                    there is no way a bee should be able to fly. <br>
-                                    Its wings are too small to get <br>
-                                    its fat little body off the ground. <br>
-                                    The bee, of course, flies anyway <br>
-                                    because bees don't care <br>
-                                    what humans think is impossible. <br>
+                            Something would be amiss if I had excluded this Portfolio. I programmed it using HTML, CSS and Javascript as well as created the image to pair with it. I feel it speaks mainly for itself, therefore I shall keep it brief. I enjoyed this project for what I could learn from it and all the tricky challenges it presented and even if it took me initially roughly a week to complete it to a working order. I'll look forward to revisiting my Portfolio soon.<br>
                         </span>  
                     </div>
                 </div>
@@ -82,6 +50,5 @@
 
     </div>
 </div>
-
 </body>
 </html> 

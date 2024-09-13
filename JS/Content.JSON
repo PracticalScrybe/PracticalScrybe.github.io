@@ -1,62 +1,63 @@
 {
 "projects":
     {
-        "language":
+        "ongoing":
         {
-            "deutsch":
+            "portfolio":
             {
-                "ongoing": 
-                [
-                    {
+                "deutsch": 
+                {
                     "title": "Portfolio",
-                    "description":"blurb"
-                    },
-                    {
-                    "title": "Of the Deep End",
-                    "description":"blurb"
-                    }
-                ],
-                "finished": 
-                [
-                    {
-                    "title":"Fussball Manager",
-                    "description":"blurb"
-                    },
-                    {
-                    "title":"Animieren einer Komplexen Figur", 
-                    "description":"blurb"
-                    }
-                ]
+                    "description":"OKTOBER FEST"
+                },
+                "english": 
+                {
+                    "title": "Portfolio",
+                    "description":"Something would be amiss if I had excluded this Portfolio. I programmed it using HTML, CSS and Javascript as well as created the image to pair with it. I feel it speaks mainly for itself, therefore I shall keep it brief. I enjoyed this project for what I could learn from it and all the tricky challenges it presented and even if it took me initially roughly a week to complete it to a working order. I'll look forward to revisiting my Portfolio soon.<br>If you wish to observe it closer you can right click and inspect element, browsers don't obfuscate any the code at all."
+                }
             },
-
-
-            "english":
+            "Of the Deep End":
             {
-        
-                "ongoing": 
-                [
-                    {
-                    "title": "Portfolio",
-                    "description":"blurb"
-                    },
-                    {
+                "deutsch": 
+                {
+                    "title": "Of the Deep End",
+                    "description":"OKTOBER FEST"
+                },
+                "english": 
+                {
                     "title": "Of the Deep End",
                     "description":"blurb"
-                    }
-                ],
-                "finished": 
-                [
-                    {
-                    "title":"Football Manager",
-                    "description":"blurb"
-                    },
-                    {
-                    "title":"Animation of a Complex Figure",
-                    "description":"blurb"
-                    }
-                ]
+                }
             }
-        }
-        
+        },
+        "finished":
+        {
+            "football manager":
+            {
+                "deutsch": 
+                {
+                    "title": "Fussball Manager",
+                    "description":"OKTOBER FEST"
+                },
+                "english": 
+                {
+                    "title": "Football Manager",
+                    "description":"blurb"
+                }
+            },
+            "animation of a complex figur":
+            {
+                "deutsch": 
+                {
+                    "title": "Portfolio",
+                    "description":"OKTOBER FEST"
+                },
+                "english": 
+                {
+                    "title": "Animation of a complex figur",
+                    "description":"blurb"
+                }
+            }
+        }  
     }
 }

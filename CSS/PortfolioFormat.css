@@ -77,10 +77,7 @@ h1 {
   grid-row: 1;
 } 
 
-.try
-{
-  height: auto;
-}
+
 .textloc{
   grid-column: 1;
   grid-row: 2;
@@ -100,6 +97,20 @@ h1 {
     }
 
 #text1
+    {
+      color: rgba(255, 234, 189, 1);
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+.overlap0
+    {
+      color: rgba(255, 234, 189, 0);
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+.overlap1
     {
       color: rgba(255, 234, 189, 1);
       grid-column: 1;
