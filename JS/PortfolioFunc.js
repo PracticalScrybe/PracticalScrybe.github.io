@@ -1,11 +1,11 @@
 var drop = document.getElementById("language");
-var language = drop.options[drop.selectedIndex].text;
+var language = drop.options[drop.selectedIndex];
 var flip = false;
 const content = getProjects();
 
 async function getProjects()
 {
-    const response = await fetch("./JS/Content",
+    const response = await fetch("./JS/Content.json",
         {
         headers:
         {
@@ -35,7 +35,7 @@ async function loadButtons(stats)
     for(const stat of stats)
     {
         for (let index = 0; index < content["projects"][language][stat].length; ++index) 
-            {
+        {
             const element = content["projects"][language][stat][index];
     
             var button = document.createElement("button");
