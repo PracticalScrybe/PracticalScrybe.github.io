@@ -3,20 +3,29 @@ var language = drop.options[drop.selectedIndex];
 var flip = false;
 const content = getProjects();
 fetch("./JS/Content.json")
-    .then(res => res.json())
+    .then(res => 
+    {
+        if (!res.ok)
+        {
+            throw new Error ("HTTP error! Status: ${res.status}");
+        }
+        return res.json()
+    })
     .then(data => {
         console.log(data);
     })
+    .catch((error) =>
+        console.error("Unable to fetch data:", error));
 
 async function getProjects()
 {
-    const response = await fetch("JS/Content.json",
-        {
+    const response = await fetch("./JS/Content.json",
+    {
         headers:
         {
           'Accept': 'application/json'
         }
-      });
+    });
     const content = await response.json();
     console.log(content);
     return content

@@ -1,10 +1,10 @@
 {
 "projects":
-    [{
+    {
         "language":
-        [{
+        {
             "deutsch":
-            [{
+            {
                 "ongoing": 
                 [
                     {
@@ -27,11 +27,11 @@
                     "description":"blurb"
                     }
                 ]
-            }],
+            },
 
 
             "english":
-            [{
+            {
         
                 "ongoing": 
                 [
@@ -55,8 +55,8 @@
                     "description":"blurb"
                     }
                 ]
-            }]
-        }]
+            }
+        }
         
-    }]
+    }
 }
