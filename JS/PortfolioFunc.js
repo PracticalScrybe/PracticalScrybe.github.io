@@ -1,7 +1,9 @@
 var drop = document.getElementById("language");
 var language = drop.options[drop.selectedIndex];
 var flip = false;
-var content = {
+const content = getProjects();
+
+/*{
     "projects":
         {
             "language":
@@ -64,7 +66,7 @@ var content = {
         }
     };
 
-/*fetch("./JS/Content.json")
+fetch("./JS/Content.json")
     .then(res => 
     {
         if (!res.ok)
@@ -77,11 +79,11 @@ var content = {
         console.log(data);
     })
     .catch((error) =>
-        console.error("Unable to fetch data:", error));
+        console.error("Unable to fetch data:", error));*/
 
 async function getProjects()
 {
-    const response = await fetch("./JS/Content.json",
+    const response = await fetch("HTTPS://PracticalScrybe.github.io/tree/main/JS/Content.json",
     {
         headers:
         {
@@ -90,9 +92,8 @@ async function getProjects()
     });
     const content = await response.json();
     console.log(content);
-    return content
-    intentional error to verify comments are removed from code
-}*/
+    return content;
+}
 
 function lighten(str)
 {
