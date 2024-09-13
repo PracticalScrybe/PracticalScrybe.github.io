@@ -2,10 +2,15 @@ var drop = document.getElementById("language");
 var language = drop.options[drop.selectedIndex];
 var flip = false;
 const content = getProjects();
+fetch("./JS/Content.json")
+    .then(res => res.json())
+    .then(data => {
+        console.log(data);
+    })
 
 async function getProjects()
 {
-    const response = await fetch("./JS/Content.json",
+    const response = await fetch("JS/Content.json",
         {
         headers:
         {
