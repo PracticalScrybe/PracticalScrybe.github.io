@@ -12,12 +12,12 @@ const content = {
                     "deutsch": 
                     {
                         "title": "Portfolio",
-                        "description":"OKTOBER FEST"
+                        "description":"Das Portfolio gehört bei mir auch auf das Portfolio mit drauf. I habe sämtliche Eigenschaften dieser Page, von knöpfen bis hin zum text selber mit HTML, CSS und Javascript programmiert. Vorerst halte ich mich zurück mit speziellen animationen, doch plane ich in naher Zukunft mit diesen die Website zu schmücken. Ich genoss die Woche die ich damit verbracht die Sprachen zu und die Herausfoderungen die es mit sich brachte, doch jetzt wäre eine kurze pause angebracht."
                     },
                     "english": 
                     {
                         "title": "Portfolio",
-                        "description":"Something would be amiss if I had excluded this Portfolio. I programmed it using HTML, CSS and Javascript as well as created the image to pair with it. I feel it speaks mainly for itself, therefore I shall keep it brief. I enjoyed this project for what I could learn from it and all the tricky challenges it presented and even if it took me initially roughly a week to complete it to a working order. I'll look forward to revisiting my Portfolio soon."
+                        "description":"Something would be amiss if I had excluded this Portfolio. I programmed all of it's content contained within using HTML, CSS and Javascript as well as created the image to pair with it. I had to resist animating any of its content, though I do plan to revisit this project in the future. For what it is, I enjoyed this project for what I could learn from it and all the tricky challenges it presented, though now a small break from it would be in order."
                     }
                 },
                 "of the deep end":
@@ -25,12 +25,12 @@ const content = {
                     "deutsch": 
                     {
                         "title": "Of the Deep End",
-                        "description":"OKTOBER FEST"
+                        "description":"Of the Deep End ist ein isometrisches Spiel, in dem man sich gegen Horden an gegner beweisen muss mithilfe von diversen Gegestände mit mysteriösen Fähigkeiten. Diese Gegenstände kann man im laufe des Spiels in Kisten entdecken oder gar selbst durch kombinieren selbst schaffen. Ich arbeite hobbymässig dran gemeinsam mit zwei anderen."
                     },
                     "english": 
                     {
                         "title": "Of the Deep End",
-                        "description":"blurb"
+                        "description":"Of the Deep End is a Top-down isometric wave survival game with the goal of fending off Hoards of monsters using various items with mysterious abilities. These items can be found in various chest and crafted combining two items. I'm currently still working on it together with two others as a hobby."
                     }
                 }
             },
@@ -40,13 +40,13 @@ const content = {
                 {
                     "deutsch": 
                     {
-                        "title": "Fussball Manager",
-                        "description":"OKTOBER FEST"
+                        "title": "Fussballteam Manager Simulator",
+                        "description":"I'm Rahmen meines Studium habe ich als Gruppenarbeit in Python einen rudimentären Fussball Team Manager entwickelt, in dem man ein Team wählt und zum Sieg führt whärend einer Saison."
                     },
                     "english": 
                     {
-                        "title": "Football Manager",
-                        "description":"blurb"
+                        "title": "Football Team Manager Simulator",
+                        "description":"During my studies at university I took part in developing a rudimentary Football Team Manager Simulator, in which you choose and lead a team to victory through a simulated season."
                     }
                 },
                 "animation of a complex figur":
@@ -54,12 +54,12 @@ const content = {
                     "deutsch": 
                     {
                         "title": "Animieren einer Komplexen Figur",
-                        "description":"OKTOBER FEST"
+                        "description":"Für meine Matura habe ich eine Strichfigur via Java erstellt und animiert. Dabei Verglich ich das dabei entstandene Resultat mit der heutigen Methode der 3D animation."
                     },
                     "english": 
                     {
                         "title": "Animation of a Complex Figur",
-                        "description":"blurb"
+                        "description":"For my Matura project I created and animated a stick figure with Java. Thereafter I compared the resulting animation with modern methods of 3D animation."
                     }
                 }
             }     
@@ -181,10 +181,10 @@ function updateLanguage(evt)
             document.getElementById(names[0]+"text").textContent = element;
         }
     }
-    console.log(display)
-    console.log(content["projects"][display[0]][display[1]])
+    //console.log(display)
+    //console.log(content["projects"][display[0]][display[1]])
     
-    document.getElementById("text0").textContent = content["projects"][display[0]][display[1]][evt.value]["description"];
+    document.getElementById("text1").textContent = content["projects"][display[0]][display[1]][evt.value]["description"];
     language = evt.value;
 }
 
@@ -205,6 +205,6 @@ function animate()
 }
 
 {
-
+    document.getElementById("text1").textContent = content["projects"][display[0]][display[1]][language]["description"];
     loadButtons();
 }

@@ -45,9 +45,10 @@ h1 {
     {
       color: rgb(255, 234, 189);
       font-family: verdana;
-      font-size: 11px;
+      font-size: 14px;
+      padding: 27px;
       position: absolute;
-      /*margin: auto;*/
+      height: fit-content;
     }
 
 .centerfocus
@@ -58,19 +59,20 @@ h1 {
   padding: 40px; 
 }
 
-.container{
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      align-content: center;
-      height: 500px;
-      margin: 25px;
-      margin-top: 34px;
-      padding: 25px;
-      background-color:  rgba(59, 55, 76); 
-      border-radius: 15px;
-      
-    }
+.container
+{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-content: center;
+  height: fit-content;
+  width: fit-content;
+  margin: 25px;
+  margin-top: 36px;
+  background-color:  rgba(59, 55, 76); 
+  border-radius: 15px;
+}
+
 .picloc
 {
   grid-column: 1;
@@ -136,8 +138,9 @@ img {
   }
   
 .landscape {
-      height: 100px;
+      height: 600px;
       width: 800px;
+      padding: 25px;
   }
   
 .square {
