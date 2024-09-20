@@ -5,6 +5,11 @@ var stats = ["ongoing","finished"];
 const content = {
     "projects":
         {
+            "title":
+            {
+                "deutsch": "Projekt Portfolio",
+                "english": "Project Portfolio"
+            },
             "ongoing":
             {
                 "portfolio":
@@ -13,6 +18,7 @@ const content = {
                     {
                         "title": "Portfolio",
                         "description":"Das Portfolio gehört bei mir auch auf das Portfolio mit drauf. I habe sämtliche Eigenschaften dieser Page, von knöpfen bis hin zum text selber mit HTML, CSS und Javascript programmiert. Vorerst halte ich mich zurück mit speziellen animationen, doch plane ich in naher Zukunft mit diesen die Website zu schmücken. Ich genoss die Woche die ich damit verbracht die Sprachen zu und die Herausfoderungen die es mit sich brachte, doch jetzt wäre eine kurze pause angebracht."
+                        
                     },
                     "english": 
                     {
@@ -41,7 +47,7 @@ const content = {
                     "deutsch": 
                     {
                         "title": "Fussballteam Manager Simulator",
-                        "description":"I'm Rahmen meines Studium habe ich als Gruppenarbeit in Python einen rudimentären Fussball Team Manager entwickelt, in dem man ein Team wählt und zum Sieg führt whärend einer Saison."
+                        "description":"Im Rahmen meines Studium habe ich als Gruppenarbeit in Python einen rudimentären Fussball Team Manager entwickelt, in dem man ein Team wählt und zum Sieg führt whärend einer Saison."
                     },
                     "english": 
                     {
