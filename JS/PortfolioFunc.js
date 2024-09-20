@@ -2,6 +2,7 @@ var drop = document.getElementById("language");
 var language = drop.options[drop.selectedIndex].value;
 var display = ["ongoing", "portfolio"];
 var stats = ["ongoing","finished"];
+var subtitle = {"deutsch":"Projekt Portfolio", "english":"Project Portfolio"}
 const content = {
     "projects":
         {
@@ -201,6 +202,8 @@ async function exchange(evt)
     display = [evt.currentTarget.parentNode.id, evt.currentTarget.id];
     document.getElementById("animation").src = "images/"+evt.currentTarget.id+".gif"
     document.getElementById("text1").textContent = evt.currentTarget.descr[language]["description"];
+    document.getElementById("subtitle").textContent = subtitle[language];
+    console.log(subtitle[language]);
     //animate
     //fade in
 }
