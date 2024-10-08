@@ -52,13 +52,13 @@ const content = {
                     {
                         "title": "Fussballteam Manager Simulator",
                         "description":"Im Rahmen meines Studium habe ich als Gruppenarbeit in Python einen rudimentären Fussball Team Manager entwickelt, in dem man ein Team wählt und zum Sieg führt whärend einer Saison.",
-                        "tasks":["Processing of Data using the Pandas Library for Python", "Team Management", "Player Store", "Bugfixing"]
+                        "tasks":["Geschrieben in Python", "Processing of Data using the Pandas Library", "Team Management", "Player Store", "Bugfixing"]
                     },
                     "english": 
                     {
                         "title": "Football Team Manager Simulator",
                         "description":"During my studies at university I took part in developing a rudimentary Football Team Manager Simulator, in which you choose and lead a team to victory through a simulated season.",
-                        "tasks":["Processing of Data using the Pandas Library for Python", "Team Management", "Player Store", "Bugfixing"]
+                        "tasks":["Written in Python", "Processing of Data using the Pandas Library for Python", "Team Management", "Player Store", "Bugfixing"]
                     }
                 },
                 "animation of a complex figur":
