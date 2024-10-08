@@ -19,13 +19,13 @@ const content = {
                     {
                         "title": "Portfolio",
                         "description":"Das Portfolio gehört bei mir auch auf das Portfolio mit drauf. I habe sämtliche Eigenschaften dieser Page, von knöpfen bis hin zum text selber mit HTML, CSS und Javascript programmiert. Vorerst halte ich mich zurück mit speziellen animationen, doch plane ich in naher Zukunft mit diesen die Website zu schmücken. Ich genoss die Woche die ich damit verbracht die Sprachen zu und die Herausfoderungen die es mit sich brachte, doch jetzt wäre eine kurze pause angebracht.",
-                        "tasks":["Sprachen und Inhalt Autausch","Generelle Formattierung der Seite","three","four","five"]
+                        "tasks":["Geschrieben in HTML, CSS and Javascritp", "Sprachen und Inhalt Autausch","Generelle Formattierung der Seite","Webpage Struktur mit HTML errichtet"]
                     },
                     "english": 
                     {
                         "title": "Portfolio",
                         "description":"Something would be amiss if I had excluded this Portfolio. I programmed all of it's content contained within using HTML, CSS and Javascript as well as created the image to pair with it. I had to resist animating any of its content, though I do plan to revisit this project in the future. For what it is, I enjoyed this project for what I could learn from it and all the tricky challenges it presented, though now a small break from it would be in order.",
-                        "tasks":["Language and Contnent switching", "General Web Formatting", "", "", ""]
+                        "tasks":["Written in HTML, CSS and Javascript", "Language and Content switching using Javascript", "General Web Formatting using CSS", "Page Structure using HTML"]
                     }
                 },
                 "of the deep end":
@@ -34,13 +34,13 @@ const content = {
                     {
                         "title": "Of the Deep End",
                         "description":"Of the Deep End ist ein isometrisches Spiel, in dem man sich gegen Horden an gegner beweisen muss mithilfe von diversen Gegestände mit mysteriösen Fähigkeiten. Diese Gegenstände kann man im laufe des Spiels in Kisten entdecken oder gar selbst durch kombinieren selbst schaffen. Ich arbeite hobbymässig dran gemeinsam mit zwei anderen.",
-                        "tasks":["","","","",""]
+                        "tasks":["Wird in C# geschrieben mit der Godot Engine", "Animation und Animations Handling", "Zufälliges von Gegnern und Interagierbarem", "Nutzer Interface innerhalb des Levels", "Interagierbare Objekte"]
                     },
                     "english": 
                     {
                         "title": "Of the Deep End",
                         "description":"Of the Deep End is a Top-down isometric wave survival game with the goal of fending off Hoards of monsters using various items with mysterious abilities. These items can be found in various chest and crafted combining two items. I'm currently still working on it together with two others as a hobby.",
-                        "tasks":["","","","",""]
+                        "tasks":["Is being Written in C# using the Godot Engine", "Animations and Animation Handling", "Random Spawning of Entities and Interactables", "User Interface within the Level", "Interactable Objects"]
                     }
                 }
             },
@@ -52,13 +52,13 @@ const content = {
                     {
                         "title": "Fussballteam Manager Simulator",
                         "description":"Im Rahmen meines Studium habe ich als Gruppenarbeit in Python einen rudimentären Fussball Team Manager entwickelt, in dem man ein Team wählt und zum Sieg führt whärend einer Saison.",
-                        "tasks":["","","","",""]
+                        "tasks":["Processing of Data using the Pandas Library for Python", "Team Management", "Player Store", "Bugfixing"]
                     },
                     "english": 
                     {
                         "title": "Football Team Manager Simulator",
                         "description":"During my studies at university I took part in developing a rudimentary Football Team Manager Simulator, in which you choose and lead a team to victory through a simulated season.",
-                        "tasks":["","","","",""]
+                        "tasks":["Processing of Data using the Pandas Library for Python", "Team Management", "Player Store", "Bugfixing"]
                     }
                 },
                 "animation of a complex figur":
@@ -67,13 +67,13 @@ const content = {
                     {
                         "title": "Animieren einer Komplexen Figur",
                         "description":"Für meine Matura habe ich eine Strichfigur via Java erstellt und animiert. Dabei Verglich ich das dabei entstandene Resultat mit der heutigen Methode der 3D animation.",
-                        "tasks":["","","","",""]
+                        "tasks":["Anwendung von 3D Vektor Geometrie um die Figur zu bewegen", "Semi-Perspektive Projektion", "Verknüpfung von Objekten zu einer Strichfigur", "Key Event Listener um die Figur zu steuern"]
                     },
                     "english": 
                     {
                         "title": "Animation of a Complex Figur",
                         "description":"For my Matura project I created and animated a stick figure with Java. Thereafter I compared the resulting animation with modern methods of 3D animation.",
-                        "tasks":["","","","",""]
+                        "tasks":["Appliance of 3D Vector Geometry to move the figure", "Semi-Perspective View", "Linking of Objects to form a Stickfigure", "Key Event Listener to control the figure"]
                     }
                 }
             }     
