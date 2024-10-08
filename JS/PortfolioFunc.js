@@ -1,8 +1,8 @@
 var drop = document.getElementById("language");
 var language = drop.options[drop.selectedIndex].value;
 var display = ["ongoing", "portfolio"];
-var stats = ["ongoing","finished"];
-var subtitle = {"deutsch":"Projekt Portfolio", "english":"Project Portfolio"}
+var stats = ["ongoing", "finished"];
+var subtitle = {"deutsch":"Projekt-Portfolio", "english":"Project Portfolio"}
 const content = {
     "projects":
         {
@@ -18,13 +18,14 @@ const content = {
                     "deutsch": 
                     {
                         "title": "Portfolio",
-                        "description":"Das Portfolio gehört bei mir auch auf das Portfolio mit drauf. I habe sämtliche Eigenschaften dieser Page, von knöpfen bis hin zum text selber mit HTML, CSS und Javascript programmiert. Vorerst halte ich mich zurück mit speziellen animationen, doch plane ich in naher Zukunft mit diesen die Website zu schmücken. Ich genoss die Woche die ich damit verbracht die Sprachen zu und die Herausfoderungen die es mit sich brachte, doch jetzt wäre eine kurze pause angebracht."
-                        
+                        "description":"Das Portfolio gehört bei mir auch auf das Portfolio mit drauf. I habe sämtliche Eigenschaften dieser Page, von knöpfen bis hin zum text selber mit HTML, CSS und Javascript programmiert. Vorerst halte ich mich zurück mit speziellen animationen, doch plane ich in naher Zukunft mit diesen die Website zu schmücken. Ich genoss die Woche die ich damit verbracht die Sprachen zu und die Herausfoderungen die es mit sich brachte, doch jetzt wäre eine kurze pause angebracht.",
+                        "tasks":["Sprachen und Inhalt Autausch","Generelle Formattierung der Seite","three","four","five"]
                     },
                     "english": 
                     {
                         "title": "Portfolio",
-                        "description":"Something would be amiss if I had excluded this Portfolio. I programmed all of it's content contained within using HTML, CSS and Javascript as well as created the image to pair with it. I had to resist animating any of its content, though I do plan to revisit this project in the future. For what it is, I enjoyed this project for what I could learn from it and all the tricky challenges it presented, though now a small break from it would be in order."
+                        "description":"Something would be amiss if I had excluded this Portfolio. I programmed all of it's content contained within using HTML, CSS and Javascript as well as created the image to pair with it. I had to resist animating any of its content, though I do plan to revisit this project in the future. For what it is, I enjoyed this project for what I could learn from it and all the tricky challenges it presented, though now a small break from it would be in order.",
+                        "tasks":["Language and Contnent switching", "General Web Formatting", "", "", ""]
                     }
                 },
                 "of the deep end":
@@ -32,12 +33,14 @@ const content = {
                     "deutsch": 
                     {
                         "title": "Of the Deep End",
-                        "description":"Of the Deep End ist ein isometrisches Spiel, in dem man sich gegen Horden an gegner beweisen muss mithilfe von diversen Gegestände mit mysteriösen Fähigkeiten. Diese Gegenstände kann man im laufe des Spiels in Kisten entdecken oder gar selbst durch kombinieren selbst schaffen. Ich arbeite hobbymässig dran gemeinsam mit zwei anderen."
+                        "description":"Of the Deep End ist ein isometrisches Spiel, in dem man sich gegen Horden an gegner beweisen muss mithilfe von diversen Gegestände mit mysteriösen Fähigkeiten. Diese Gegenstände kann man im laufe des Spiels in Kisten entdecken oder gar selbst durch kombinieren selbst schaffen. Ich arbeite hobbymässig dran gemeinsam mit zwei anderen.",
+                        "tasks":["","","","",""]
                     },
                     "english": 
                     {
                         "title": "Of the Deep End",
-                        "description":"Of the Deep End is a Top-down isometric wave survival game with the goal of fending off Hoards of monsters using various items with mysterious abilities. These items can be found in various chest and crafted combining two items. I'm currently still working on it together with two others as a hobby."
+                        "description":"Of the Deep End is a Top-down isometric wave survival game with the goal of fending off Hoards of monsters using various items with mysterious abilities. These items can be found in various chest and crafted combining two items. I'm currently still working on it together with two others as a hobby.",
+                        "tasks":["","","","",""]
                     }
                 }
             },
@@ -48,12 +51,14 @@ const content = {
                     "deutsch": 
                     {
                         "title": "Fussballteam Manager Simulator",
-                        "description":"Im Rahmen meines Studium habe ich als Gruppenarbeit in Python einen rudimentären Fussball Team Manager entwickelt, in dem man ein Team wählt und zum Sieg führt whärend einer Saison."
+                        "description":"Im Rahmen meines Studium habe ich als Gruppenarbeit in Python einen rudimentären Fussball Team Manager entwickelt, in dem man ein Team wählt und zum Sieg führt whärend einer Saison.",
+                        "tasks":["","","","",""]
                     },
                     "english": 
                     {
                         "title": "Football Team Manager Simulator",
-                        "description":"During my studies at university I took part in developing a rudimentary Football Team Manager Simulator, in which you choose and lead a team to victory through a simulated season."
+                        "description":"During my studies at university I took part in developing a rudimentary Football Team Manager Simulator, in which you choose and lead a team to victory through a simulated season.",
+                        "tasks":["","","","",""]
                     }
                 },
                 "animation of a complex figur":
@@ -61,12 +66,14 @@ const content = {
                     "deutsch": 
                     {
                         "title": "Animieren einer Komplexen Figur",
-                        "description":"Für meine Matura habe ich eine Strichfigur via Java erstellt und animiert. Dabei Verglich ich das dabei entstandene Resultat mit der heutigen Methode der 3D animation."
+                        "description":"Für meine Matura habe ich eine Strichfigur via Java erstellt und animiert. Dabei Verglich ich das dabei entstandene Resultat mit der heutigen Methode der 3D animation.",
+                        "tasks":["","","","",""]
                     },
                     "english": 
                     {
                         "title": "Animation of a Complex Figur",
-                        "description":"For my Matura project I created and animated a stick figure with Java. Thereafter I compared the resulting animation with modern methods of 3D animation."
+                        "description":"For my Matura project I created and animated a stick figure with Java. Thereafter I compared the resulting animation with modern methods of 3D animation.",
+                        "tasks":["","","","",""]
                     }
                 }
             }     
@@ -151,6 +158,7 @@ async function loadButtons()
 
             var arrange = document.createElement("div");
             var img = document.createElement("img");
+            img.classList.add("square");
             var text = document.createElement("span");
             var div = document.createElement("div");
             
@@ -193,24 +201,39 @@ function updateLanguage(evt)
     
     document.getElementById("text1").textContent = content["projects"][display[0]][display[1]][evt.value]["description"];
     language = evt.value;
+    document.getElementById("title").textContent = subtitle[language];
+    //clear list
+    document.getElementById("tasks").innerHTML = "";
+    //numerator for replacing entries one to one
+    for (let i = 0; i < content["projects"][display[0]][display[1]][evt.value]["tasks"].length; i++)
+    {  
+        //create new entries
+        var li = document.createElement('li');
+        li.textContent = content["projects"][display[0]][display[1]][evt.value]["tasks"][i];
+        document.getElementById("tasks").appendChild(li);
+    }
 }
 
 async function exchange(evt)
 {
     //fade out
-    console.log("text1", document.getElementById("text1").textContent, evt.currentTarget.descr);
+    //console.log("text1", document.getElementById("text1").textContent, evt.currentTarget.descr);
     display = [evt.currentTarget.parentNode.id, evt.currentTarget.id];
-    document.getElementById("animation").src = "images/"+evt.currentTarget.id+".gif"
+    document.getElementById("animation").src = "images/"+evt.currentTarget.id+".gif";
     document.getElementById("text1").textContent = evt.currentTarget.descr[language]["description"];
-    document.getElementById("subtitle").textContent = subtitle[language];
-    console.log(subtitle[language]);
-    //animate
-    //fade in
-}
 
-function animate()
-{
+    //clear list
+    document.getElementById("tasks").innerHTML = "";
+    //numerator for replacing entries one to one
+    for (let i = 0; i < evt.currentTarget.descr[language]["tasks"].length; i++)
+    {  
+        //create new entries
+        var li = document.createElement('li');
+        li.textContent = evt.currentTarget.descr[language]["tasks"][i];
+        document.getElementById("tasks").appendChild(li);
+    }
     
+    //fade in
 }
 
 {
