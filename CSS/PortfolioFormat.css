@@ -47,6 +47,27 @@ h1
   /*margin: auto;*/
 }
 
+.listtext
+{
+  color: rgb(255, 234, 189);
+  font-family: verdana;
+  font-size: 14px;
+  padding: 12px;
+  padding-left: 25px;
+  padding-bottom: 0px;
+  display: block;
+  width: 800px;
+}
+
+ul li
+{
+  color: rgb(255, 234, 189);
+  font-family: verdana;
+  padding: 5px;
+  font-size: 14px;
+  position: relative;
+}
+
 .text
 {
   color: rgb(255, 234, 189);
@@ -54,6 +75,7 @@ h1
   font-size: 14px;
   padding: 25px;
   padding-top: 0px;
+  padding-bottom: 0px;
   display: block;
   width: 800px;
 }
@@ -77,11 +99,11 @@ h1
   width: 800px;
 }
 
-#text1
+/*#text1
 {
   padding: 27px;
   padding-top: 0px;
-}
+}*/
 
 .framebar
 {
@@ -152,7 +174,7 @@ img {
 .buttonsize
   {
     height: auto;
-    width: 30px;
+    width: 75px;
     margin: auto;
   }
   
