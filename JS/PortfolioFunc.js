@@ -87,7 +87,7 @@ const content = {
                         "tasks":["Written in Python", "Processing of Data using the Pandas Library for Python", "Team Management", "Player Store", "Bugfixing"]
                     }
                 },
-                "animation of a complex figur":
+                "animation of a complex figure":
                 {
                     "deutsch": 
                     {
@@ -101,7 +101,7 @@ const content = {
                     },
                     "english": 
                     {
-                        "title": "Animation of a Complex Figur",
+                        "title": "Animation of a Complex Figure",
                         "description":"For my Matura project I created and animated a stick figure with Java. Thereafter I compared the resulting animation with modern methods of 3D animation.",
                         "year":"Year: 2017",
                         "reason":"Reason: Matura Project",
