@@ -213,7 +213,7 @@ async function loadButtons()
             arrange.className = "vertarrange";
             
             img.src = "images/"+names[0]+".png";
-            img.alt = element[language]["title"];
+            img.alt = "loading"
 
             text.className = "buttontext";
             text.textContent = element[language]["title"];
@@ -235,7 +235,7 @@ async function loadButtons()
 
 function updateLanguage(evt)
 {
-
+    console.log("yes")
     for(const stat of stats)
     {
         for (const names of Object.entries(content["projects"][stat])) 
