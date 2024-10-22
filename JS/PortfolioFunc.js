@@ -5,6 +5,7 @@ var stats = ["ongoing", "finished"];
 var subtitle = {"deutsch":"Projekt-Portfolio", "english":"Project Portfolio"}
 var bulletpoints = ["year","reason","involved","clanguage"]
 var cont = {"deutsch":"Anteil:", "english":"Contribution:"}
+var gifs = {}
 const content = {
     "projects":
         {
@@ -130,6 +131,8 @@ const content = {
     .catch((error) =>
         console.error("Unable to fetch data:", error));*/
 
+
+
 async function getProjects()
 {
     const response = await fetch("./JS/Content.json",
@@ -144,9 +147,20 @@ async function getProjects()
     return content;
 }
 
-function setInitialText()
+function readyGifs()
 {
-
+    for(const stat of stats)
+    {
+        for (const title of Object.entries(content["projects"][stat]))
+        {
+            var img = new Image();
+            img.src = "images/"+title[0]+".gif";
+            img.id = "animation";
+            img.alt = "placeholder";
+            img.className = "landscape";
+            gifs[title[0]] = img;
+        }
+    }
 }
 
 function lighten(evt)
@@ -255,11 +269,18 @@ function updateLanguage(evt)
 
 async function exchange(evt)
 {
-    //fade out
+    //fade out will be programmed later
     //console.log("text1", document.getElementById("text1").textContent, evt.currentTarget.descr);
     display = [evt.currentTarget.parentNode.id, evt.currentTarget.id];
-    document.getElementById("animation").src = "images/"+evt.currentTarget.id+".gif";
-    document.getElementById("text1").textContent = evt.currentTarget.descr[language]["description"];
+
+    var parent = document.getElementById("animation").parentNode;
+    var text1 = document.getElementById("text1")
+
+    parent.removeChild(document.getElementById("animation"));
+
+    parent.insertBefore(gifs[evt.currentTarget.id], text1);
+
+    text1.textContent = evt.currentTarget.descr[language]["description"];
 
     //clear list
     document.getElementById("tasks").innerHTML = "";
@@ -277,10 +298,12 @@ async function exchange(evt)
             document.getElementById(dat).textContent = evt.currentTarget.descr[language][dat];
         }
     
-    //fade in
+    //fade in also programmed later
 }
 
 {
+    readyGifs();
+    loadButtons();
     document.getElementById("text1").textContent = content["projects"][display[0]][display[1]][language]["description"];
 
     for (let i = 0; i < content["projects"][display[0]][display[1]][language]["tasks"].length; i++)
@@ -299,5 +322,5 @@ async function exchange(evt)
     document.getElementById("cont").textContent = cont[language];
     
 
-    loadButtons();
+    
 }
