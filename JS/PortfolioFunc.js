@@ -21,12 +21,12 @@ const content = {
                     "deutsch": 
                     {
                         "title": "Portfolio",
-                        "description":"Das Portfolio gehört bei mir auch auf das Portfolio mit drauf. I habe sämtliche Eigenschaften dieser Page, von knöpfen bis hin zum text selber mit HTML, CSS und Javascript programmiert. Vorerst halte ich mich zurück mit speziellen animationen, doch plane ich in naher Zukunft mit diesen die Website zu schmücken. Ich genoss die Woche die ich damit verbracht die Sprachen zu und die Herausfoderungen die es mit sich brachte, doch jetzt wäre eine kurze pause angebracht.",
+                        "description":"Das Portfolio gehört bei mir auch auf das Portfolio mit drauf. Ich habe sämtliche Eigenschaften dieser Page, von Knöpfen bis hin zum Text selber mit HTML, CSS und Javascript programmiert. Vorerst halte ich mich zurück mit speziellen animationen, doch plane ich in naher Zukunft mit diesen die Website zu schmücken.",
                         "year":"Jahr: 2024",
                         "reason":"Grund: Bewerbungs Beilagen",
                         "involved":"Teamgrösse: Eine Person",
                         "clanguage":"Programmiersprachen: HTML, CSS & Javascript",
-                        "tasks":["Sprachen und Inhalt Autausch", "Generelle Formattierung der Seite", "Webpage Struktur mit HTML errichtet"]
+                        "tasks":["Webpage Struktur mit HTML errichtet", "Generelle Formattierung der Seite Mithilfe CSS", "Austausch Sprachen und Inhalt auf Knopfdruck mit Javascript"]
                     },
                     "english": 
                     {
@@ -36,7 +36,7 @@ const content = {
                         "reason":"Reason: Job Application Attachment",
                         "involved":"Team Size: One person",
                         "clanguage":"Coding Languages: HTML, CSS & Javascript",
-                        "tasks":["Language and Content switching using Javascript", "General Web Formatting using CSS", "Page Structure using HTML"]
+                        "tasks":["Language and content switching using Javascript", "General web formatting using CSS", "Page structure using HTML"]
                     }
                 },
                 "of the deep end":
@@ -44,12 +44,12 @@ const content = {
                     "deutsch": 
                     {
                         "title": "Of the Deep End",
-                        "description":"Of the Deep End ist ein isometrisches Spiel, in dem man sich gegen Horden an gegner beweisen muss mithilfe von diversen Gegestände mit mysteriösen Fähigkeiten. Diese Gegenstände kann man im laufe des Spiels in Kisten entdecken oder gar selbst durch kombinieren selbst schaffen. Ich arbeite hobbymässig dran gemeinsam mit zwei anderen.",
+                        "description":"Of the Deep End ist ein isometrisches Spiel, in dem man sich gegen Horden an Gegner beweisen muss Mithilfe von diversen Gegestände mit mysteriösen Fähigkeiten. Diese Gegenstände kann man im Laufe des Spiels in Kisten entdecken oder gar durch Kombinieren selbst schaffen.",
                         "year":"Jahr: 2024",
                         "reason":"Grund: Hobby",
                         "involved":"Teamgrösse: Drei Personen",
                         "clanguage":"Sprache: C#",
-                        "tasks":["mithilfe der Godot Engine", "Animation und Animations Handling", "Zufälliges von Gegnern und Interagierbarem", "Nutzer Interface innerhalb des Levels", "Interagierbare Objekte"]
+                        "tasks":["Mit der Godot Engine entwicklet", "Animation und Animationshandling", "Zufälliges Generieren von Gegnern und Interagierbarem", "Nutzerinterface innerhalb des Levels", "Interagierbare Objekte"]
                     },
                     "english": 
                     {
@@ -59,7 +59,7 @@ const content = {
                         "reason":"Reason: Hobby",
                         "involved":"Team Size: Three People",
                         "clanguage":"Language: C#",
-                        "tasks":["Using the Godot Engine", "Animations and Animation Handling", "Random Spawning of Entities and Interactables", "User Interface within the Level", "Interactable Objects"]
+                        "tasks":["Using the Godot Engine", "Animations and animation handling", "Random spawning of entities and interactables", "User interface within the level", "Interactable objects"]
                     }
                 }
             },
@@ -75,7 +75,7 @@ const content = {
                         "reason":"Grund: Gruppen Projekt für den Kurs 'MAT 101 Programming' an der Universität Zürich",
                         "involved":"Teamgrösse: Fünf Personen",
                         "clanguage":"Sprache: Python",
-                        "tasks":["Verarbeitung der Daten mithilfe der Pandas Library", "Die Functionalität des An- und Verkaufen von Spieler Im Spielermarkt", "Fehler Behebung"]
+                        "tasks":["Verarbeitung der Daten durch Nutzung der Pandas Library", "Die Functionalität des An- und Verkaufen von Spieler Im Spielermarkt", "Fehler Behebung"]
                     },
                     "english": 
                     {
@@ -93,12 +93,12 @@ const content = {
                     "deutsch": 
                     {
                         "title": "Animieren einer Komplexen Figur",
-                        "description":"Für meine Matura habe ich eine Strichfigur via Java erstellt und animiert. Dabei Verglich ich das dabei entstandene Resultat mit der heutigen Methode der 3D animation.",
+                        "description":"Für meine Matura habe ich eine Strichfigur via Java erstellt und animiert. Dabei verglich ich das dabei entstandene Resultat mit der heutigen Methode der 3D animation.",
                         "year":"Jahr: 2017",
                         "reason":"Grund: Maturaarbeit",
                         "involved":"Teamgrösse: Eine Person",
                         "clanguage":"Sprachen: Java",
-                        "tasks":["Anwendung von 3D Vektor Geometrie um die Figur zu bewegen", "Implementierung der Kalkulation für Semi-Perspektive Projektion", "Verknüpfung von Objekten zu einer Strichfigur", "Key Event Listener um die Figur zu steuern"]
+                        "tasks":["Anwendung von 3D Vektor Geometrie um die Figur zu bewegen", "Verknüpfung von Objekten zu einer Strichfigur", "Implementierung der Kalkulation für Semi-Perspektive Projektion", "Key Event Listener um die Figur zu steuern"]
                     },
                     "english": 
                     {
@@ -108,7 +108,7 @@ const content = {
                         "reason":"Reason: Matura Project",
                         "involved":"Team Size: One Person",
                         "clanguage":"Language: Java",
-                        "tasks":["Appliance of 3D Vector Geometry to move the figure", "Implementing the Calculations for Semi-Perspective View", "Linking of Objects to form a Stickfigure", "Key Event Listener to control the figure"]
+                        "tasks":["Appliance of 3D vector geometry to move the figure", "Implementing the calculations for semi-perspective view", "Linking of objects to form a stick figure", "Key event listener to control the figure"]
                     }
                 }
             }     
