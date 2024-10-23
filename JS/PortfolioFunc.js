@@ -35,7 +35,7 @@ const content = {
                         "title": "Portfolio",
                         "description":"Something would be amiss if I had excluded this Portfolio. I programmed all of it's content contained within using HTML, CSS and Javascript as well as created the image to pair with it. I had to resist animating any of its content, though I do plan to revisit this project in the future.",
                         "year":["Year:", "2024"],
-                        "reason":["Motivation:", "Job Application Attachment"],
+                        "reason":["Motivation:", "Attachment for job applications"],
                         "involved":["Collaborators:", "None"],
                         "clanguage":["Languages:", "HTML, CSS & Javascript"],
                         "tasks":["Contribution:", ["Page structure using HTML", "General web formatting using CSS", "Language and content switching using Javascript"]]
@@ -56,10 +56,10 @@ const content = {
                     "english": 
                     {
                         "title": "Of the Deep End",
-                        "description":"Of the Deep End is a Top-down isometric wave survival game with the goal of fending off Hoards of monsters using various items with mysterious abilities. These items can be found in various chest and crafted combining two items. I'm currently still working on it together with two others as a hobby.",
+                        "description":"Of the Deep End is a top-down isometric wave survival game with the goal of fending off Hoards of monsters using various items with mysterious abilities. These items can be found in various chest and crafted combining two items. I'm currently still working on it together with two others as a hobby.",
                         "year":["Year:", "2024"],
                         "reason":["Motivation:", "Hobby"],
-                        "involved":["Collaborators:", "Two People"],
+                        "involved":["Collaborators:", "Two people"],
                         "clanguage":["Language:", "C#"],
                         "tasks":["Contribution:", ["Using the Godot Engine", "Animations and animation handling", "Random spawning of entities and interactables", "User interface within the level", "Interactable objects"]]
                     }
@@ -84,7 +84,7 @@ const content = {
                         "title": "Football Team Manager Simulator",
                         "description":"During my studies at university I took part in developing a rudimentary Football Team Manager Simulator, in which you choose and lead a team to victory through a simulated season.",
                         "year":["Year:", "2020"],
-                        "reason":["Motivation:", "Group Porject for the course 'MAT 101 Programming' at the University of Zürich"],
+                        "reason":["Motivation:", "Group project for the course 'MAT 101 Programming' at the University of Zürich"],
                         "involved":["Collaborators:", "Five people"],
                         "clanguage":["Language:", "Python"],
                         "tasks":["Contribution:", ["Processing of Data using the Pandas Library for Python", "The functionality of buying and selling players in the player store", "Bugfixing"]]
@@ -107,7 +107,7 @@ const content = {
                         "title": "Animation of a Complex Figure",
                         "description":"For my Matura project I created and animated a stick figure with Java. Thereafter I compared the resulting animation with modern methods of 3D animation.",
                         "year":["Year:", "2017"],
-                        "reason":["Motivation:", "Matura Project"],
+                        "reason":["Motivation:", "Matura project"],
                         "involved":["Collaborators:", "None"],
                         "clanguage":["Language:", "Java"],
                         "tasks":["Contribution:",["Appliance of 3D vector geometry to move the figure", "Linking of objects to form a stick figure", "Implementing the calculations for semi-perspective view", "Key event listener to control the figure"]]
