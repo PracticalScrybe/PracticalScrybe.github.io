@@ -56,7 +56,13 @@ h1
   padding-left: 25px;
   padding-bottom: 0px;
   display: block;
-  width: 800px;
+  width: min-content;
+}
+
+ul
+{
+  margin-top:10px; 
+  margin-bottom:10px;
 }
 
 ul li
@@ -74,7 +80,7 @@ ul li
   font-family: verdana;
   font-size: 14px;
   padding: 25px;
-  padding-top: 0px;
+  padding-top: 25px;
   padding-bottom: 0px;
   display: block;
   width: 800px;
@@ -99,11 +105,12 @@ ul li
   width: 800px;
 }
 
-/*#text1
+#text0
 {
-  padding: 27px;
+  padding: 20px;
+  padding-left: 25px;
   padding-top: 0px;
-}*/
+}
 
 .framebar
 {
@@ -186,6 +193,7 @@ img {
 .landscape {
       width: 800px;
       padding: 25px;
+      padding-bottom: 0px;
   }
   
 .square {
@@ -223,7 +231,6 @@ error {
 
 .grid
 {
-
   display: grid;
   gap: 20px;
   grid-template-columns: 2fr;
@@ -235,6 +242,23 @@ error {
   grid-template-rows: auto 2fr;
 
     /*repeat(auto-fit, minmax(250px, 2fr));*/
+}
+
+#bullet
+{
+  gap: 0px;
+  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-rows: repeat(5, fit-content);
+  grid-column-gap: 0rem;
+  white-space: nowrap;
+  grid-template-areas:
+    "year0 year1"
+    "reason0 reason1"
+    "involved0 involved1"
+    "clanguage0 clanguage1"
+    "task0 task1";
+  padding-right:25px;
+  padding-bottom: 10px;
 }
 
 .titlebox

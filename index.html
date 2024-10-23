@@ -11,8 +11,8 @@
 <body>
 <div class="framebar">
     <select id="language" onchange="updateLanguage(this, event)">
-        <option value="deutsch">Deutsch</option>
-        <option value="english" selected="true">English</option>
+        <option value="deutsch" selected="true">Deutsch</option>
+        <option value="english">English</option>
     </select>
 </div>
 <div class="centerfocus">
@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class = projectblurb>
-            <div class="container">
+            <div class="container" id="box">
                 <!--<iframe
                     src=".\index.html"
                     name="targetframe"
@@ -46,29 +46,28 @@
                     height=400px
                 >-->
                 </iframe>
-                <img id = "animation" src="images/portfolio.gif" alt="placeholder" class="landscape">
                 <span id = "text1" class = "text">
+                    
+                </span>
+                <span id = "text0" class = "text">
                     main text
                 </span>
-                <vertarrange>
-                    <span class = "listtext" id="year">
-                        Year:
-                    </span>
-                    <span class = "listtext" id="reason">
-                        Reason:
-                    </span>
-                    <span class = "listtext" id="involved">
-                        Involved:
-                    </span>
-                    <span class = "listtext" id="clanguage">
-                        Language:
-                    </span>
-                    <span class = "listtext" id="cont">
-                        Contribution:
-                    </span>
-                    <ul id="tasks">
-                    </ul>
-                </vertarrange>
+                <div class="grid" id="bullet">
+                    <!--<div class = "listtext" id="year0"></div>
+                    <div class = "listtext" id="year1"></div>
+
+                    <div class = "listtext" id="reason0"></div>
+                    <div class = "listtext" id="reason1"></div>
+
+                    <div class = "listtext" id="involved0"></div>
+                    <div class = "listtext" id="involved1"></div>
+
+                    <div class = "listtext" id="clanguage0"></div>
+                    <div class = "listtext" id="clanguage1"></div>
+
+                    <div class = "listtext" id="tasks0"></div>
+                    <ul id="tasks1"></ul>-->
+                </div>
             </div>
         </div>
     </div>
