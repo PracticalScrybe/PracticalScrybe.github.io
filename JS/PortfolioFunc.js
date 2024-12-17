@@ -33,7 +33,7 @@ const content = {
                     "english": 
                     {
                         "title": "Portfolio",
-                        "description":"Something would be amiss if I had excluded this Portfolio. I programmed all of it's content contained within using HTML, CSS and Javascript as well as created the image to pair with it. I had to resist animating any of its content, though I do plan to revisit this project in the future.",
+                        "description":"Something would be amiss if I had excluded this Portfolio. I programmed all of its content contained within using HTML, CSS and Javascript as well as created the image to pair with it. I had to resist animating any of its content, though I do plan to revisit this project in the future.",
                         "year":["Year:", "2024"],
                         "reason":["Motivation:", "Attachment for job applications"],
                         "involved":["Collaborators:", "None"],
