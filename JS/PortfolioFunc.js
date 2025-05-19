@@ -24,7 +24,7 @@ const content = {
                     {
                         "title": "Portfolio",
                         "description":"Das Portfolio gehört bei mir auch auf das Portfolio mit drauf. Ich habe sämtliche Eigenschaften dieser Page, von Knöpfen bis hin zum Text selber mit HTML, CSS und Javascript programmiert. Vorerst halte ich mich zurück mit speziellen animationen, doch plane ich in naher Zukunft mit diesen die Website zu schmücken.",
-                        "year":["Jahr:", "2024"],
+                        "year":["Jahr:", "2024 bis Heute"],
                         "reason":["Motivation:", "Bewerbungs Beilagen"],
                         "involved":["Kollaboratoren:", "Keine"],
                         "clanguage":["Sprachen:", "HTML, CSS & Javascript"],
@@ -34,7 +34,7 @@ const content = {
                     {
                         "title": "Portfolio",
                         "description":"Something would be amiss if I had excluded this Portfolio. I programmed all of its content contained within using HTML, CSS and Javascript as well as created the image to pair with it. I had to resist animating any of its content, though I do plan to revisit this project in the future.",
-                        "year":["Year:", "2024"],
+                        "year":["Year:", "2024 to Today"],
                         "reason":["Motivation:", "Attachment for job applications"],
                         "involved":["Collaborators:", "None"],
                         "clanguage":["Languages:", "HTML, CSS & Javascript"],
@@ -47,7 +47,7 @@ const content = {
                     {
                         "title": "Of the Deep End",
                         "description":"Of the Deep End ist ein isometrisches Spiel, in dem man sich gegen Horden an Gegner beweisen muss Mithilfe von diversen Gegestände mit mysteriösen Fähigkeiten. Diese Gegenstände kann man im Laufe des Spiels in Kisten entdecken oder gar durch Kombinieren selbst schaffen.",
-                        "year":["Jahr:", "2024"],
+                        "year":["Jahr:", "2024 bis Heute"],
                         "reason":["Motivation:", "Hobby"],
                         "involved":["Kollaboratoren:", "Zwei Personen"],
                         "clanguage":["Sprache:", "C#"],
@@ -57,7 +57,7 @@ const content = {
                     {
                         "title": "Of the Deep End",
                         "description":"Of the Deep End is a top-down isometric wave survival game with the goal of fending off Hoards of monsters using various items with mysterious abilities. These items can be found in various chest and crafted combining two items. I'm currently still working on it together with two others as a hobby.",
-                        "year":["Year:", "2024"],
+                        "year":["Year:", "2024 to Today"],
                         "reason":["Motivation:", "Hobby"],
                         "involved":["Collaborators:", "Two people"],
                         "clanguage":["Language:", "C#"],

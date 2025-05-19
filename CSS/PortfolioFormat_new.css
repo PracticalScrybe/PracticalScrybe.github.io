@@ -6,7 +6,7 @@ body
   overflow-x: hidden;
 }
   
-button
+a
 {
   background-color: rgba(59, 55, 76);
   height: 128px;
@@ -264,13 +264,12 @@ error {
 .titlebox
 {
   grid-area: titlebox;
-  margin-left: 16px;
 }
 
 .projectbar
 {
   grid-area: projectbar;
-  width: 160px;
+  width: 1600px;
   overflow: auto;
 }
 
