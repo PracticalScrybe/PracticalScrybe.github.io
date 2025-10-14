@@ -3,56 +3,69 @@
 <title>Projekt Portfolio</title>
 
 <head>
-    <link rel="stylesheet" href="CSS/PortfolioFormat.css">
-    <script type="text/javascript" src="JS/PortfolioFunc.js" async></script>
+    <link rel="stylesheet" href="CSS/PortfolioFormat_new.css">
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-<div class="framebar">
+<div class="framestart">
     <select id="language" onchange="updateLanguage(this, event)">
         <option value="deutsch" selected="true">Deutsch</option>
         <option value="english">English</option>
     </select>
 </div>
-<a href="index.html">
-    <button>index</button>
-</a>
-<div class="centerfocus">
-    <span class="buttontitle">Ongoing Projects</span>
-    <div> 
-        <a href="projects/en/Portfolio.html" class="vertarrange">
-            <div class="buttonsize">
+<div id="inset">
+    <a href="index.html" class="landscape">
+        <div class="landscape" id="banner">
+            <span>Index</span>
+        </div>
+    </a>
+    <text class="landscape">Index</text>
+    <div class="centerfocus">
+        <span class="buttontitle">Ongoing Projects</span>
+        <div class="projectList"> 
+            <a href="projects/en/Portfolio.html" class="vertarrange">
                 <img class="square" src="images/portfolio.png"></img>
                 <span class = "buttontext">Portfolio</span>
-            </div> 
-        </a>
-        <a href="projects/en/OftheDeepEnd.html" class="vertarrange">
-            <div class="buttonsize">
+            </a>
+            <a href="projects/en/OftheDeepEnd.html" class="vertarrange">
                 <img class="square" src="images/of the deep end.png"></img>
                 <span class = "buttontext">Of the Deep End</span>
-            </div>
-        </a>
+            </a>
+            <a href="projects/en/DecibelPatrol.html" class="vertarrange">
+                <img class="square" src="images/of the deep end.png"></img>
+                <span class = "buttontext">Decibel Patrol</span>
+            </a>
+            <a href="projects/en/BabblingBrook.html" class="vertarrange">
+                <img class="square" src="images/of the deep end.png"></img>
+                <span class = "buttontext">Babbling Brook</span>
+            </a>
+            <a href="projects/en/LQmap.html" class="vertarrange">
+                <img class="square" src="images/of the deep end.png"></img>
+                <span class = "buttontext">LQmap</span>
+            </a>
+            <a href="projects/en/Mimicry.html" class="vertarrange">
+                <img class="square" src="images/of the deep end.png"></img>
+                <span class = "buttontext">Mimicry</span>
+            </a>
+        </div>
     </div>
-</div>
-<div>
-    <span class="buttontitle">Finished Projects</span>
-    <div>
-        <a href="projects/en/FootballTeamManager.html" class="vertarrange">
-            <div class="buttonsize">
+    <div class="centerfocus">
+        <span class="buttontitle">Finished Projects</span>
+        <div class="projectList"> 
+            <a href="projects/en/FootballTeamManager.html" class="vertarrange">
                 <img class="square" src="images/football manager.png"></img>
                 <span class = "buttontext">Football Team Manager</span>
-            </div> 
-        </a>
-        <a href="projects/en/AnimationofaComplexFigure.html" class="vertarrange">
-            <div class="buttonsize">
+            </a>
+            <a href="projects/en/AnimationofaComplexFigure.html" class="vertarrange">
                 <img class="square" src="images/animation of a complex figure.png"></img>
                 <span class = "buttontext">Animation of a Complex Figure</span>
-            </div>
-        </a>
-    </div>
-</div>    
+            </a>
+        </div>
+    </div>    
+</div>
 <div class="frameend"></div>
 </body>
 </html> 

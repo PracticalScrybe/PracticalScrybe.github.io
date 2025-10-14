@@ -19,11 +19,16 @@ a
   cursor: pointer;
 }
 
+#inset
+{
+  margin-left:64px;
+}
+
 .buttontitle
 {
   color: rgb(255, 234, 189);
   font-family: verdana;
-  font-size: 14px;
+  font-size: 24px;
   position: relative; left: 2px; top: 2px;
   margin-top: 8px;
   margin-bottom: 4px;
@@ -42,7 +47,7 @@ h1
 {
   color: rgb(255, 234, 189);
   font-family: verdana;
-  font-size: 11px;
+  font-size: 18px;
   position: relative;
   /*margin: auto;*/
 }
@@ -120,6 +125,30 @@ ul li
   box-shadow: inset -1vw -15px 15px rgba(39, 35, 56);
 }
 
+.framestart
+{
+  position: fixed;
+  top:64;
+  height: 32px;
+  width: 100vw; 
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 100%, rgb(0, 0, 0) 0%);
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 100%,rgb(0, 0, 0) 0%);
+  background: -o-linear-gradient(top, rgba(255,255,255,0) 100%,rgb(0, 0, 0) 0%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,0) 100%,rgb(0, 0, 0) 0%);
+  background: linear-gradient(rgb(0,0,0,1),rgba(0, 0, 0,0)); 
+  /*box-shadow: inset -1vw 20px 20px rgb(39, 35, 56);*/
+}
+
+.framestart::after
+{
+  content: "";
+  background-color: #000000;
+  background: linear-gradient(
+    black, transparent
+  );
+  background-repeat: no-repeat;
+}
+
 .frameend
 {
   background-color:  rgb(0, 0, 0);
@@ -148,7 +177,7 @@ ul li
 #language
 {
   color: rgb(255, 255, 255); 
-  background-color:  rgb(0, 0, 0); 
+  background-color:  rgba(0, 0, 0,0); 
   padding: 5px;
   border:0px;
   outline:0px;
@@ -180,25 +209,30 @@ img {
 
 .buttonsize
   {
-    height: auto;
-    width: 75px;
+    height: fit-content;
+    width: 256x;
     margin: auto;
   }
   
 .portrait {
-      height: 80px;
-      width: 30px;
+    height: 80px;
+    width: 30px;
   }
   
 .landscape {
-      width: 800px;
+      width: 1100px;
       padding: 25px;
       padding-bottom: 0px;
   }
+
+#banner
+  {
+  height: 256px; 
+  }
   
 .square {
-      height: 75px;
-      width: 75px;
+      height: 128px;
+      width: 128px;
   }
 
 form {
@@ -221,9 +255,12 @@ error {
 
 .vertarrange {
       margin-top:2px;
-      display:flexbox;
+      margin-left:8px;
+      width: 256px;/*158px;*/
+      height:256px;
       display:flex;
       align-items: center;
+      justify-content: center;
       flex-direction:column;
       text-wrap:wrap;
       overflow: auto;
@@ -242,6 +279,13 @@ error {
   grid-template-rows: auto 2fr;
 
     /*repeat(auto-fit, minmax(250px, 2fr));*/
+}
+
+.projectList
+{
+  display: flex;
+  flex-direction: row;
+
 }
 
 #bullet

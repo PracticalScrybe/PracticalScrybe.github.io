@@ -237,6 +237,18 @@ async function loadButtons()
 
 function updateLanguage(evt)
 {
+    if(evt.value = "deutsch")
+    {
+       document.getElementById("on").textContent = "Aktuelle Projekte";
+       document.getElementById("fi").textContent = "Fertige Projekte";
+    }
+
+    else if(evt.value = "english")
+    {
+       document.getElementById("on").textContent = "Ongoing Projects";
+       document.getElementById("fi").textContent = "Finished Projects";
+    }
+
     if (oneanddone)
     {
         document.getElementById("text0").textContent = intro[evt.value];
@@ -282,6 +294,18 @@ function updateLanguage(evt)
 
 async function exchange(evt)
 {
+    if(evt.value = "deutsch")
+    {
+       document.getElementById("on").textContent = "Aktuelle Projekte";
+       document.getElementById("fi").textContent = "Fertige Projekte";
+    }
+
+    else if(evt.value = "english")
+    {
+       document.getElementById("on").textContent = "Ongoing Projects";
+       document.getElementById("fi").textContent = "Finished Projects";
+    }
+    
     var parent = document.getElementById("box");
     if (oneanddone)
     {
