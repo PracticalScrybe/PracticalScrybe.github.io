@@ -1,6 +1,6 @@
 body 
 {
-  background-color: rgb(39, 35, 56);
+  background-color: rgb(15, 15, 15);
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
@@ -8,7 +8,7 @@ body
   
 a
 {
-  background-color: rgba(59, 55, 76);
+  background-color: rgb(39, 39, 39);
   height: 128px;
   width: 128px;
   border-radius: 15px;
@@ -26,7 +26,7 @@ a
 
 .buttontitle
 {
-  color: rgb(255, 234, 189);
+  color: rgb(255, 255, 255);
   font-family: verdana;
   font-size: 24px;
   position: relative; left: 2px; top: 2px;
@@ -36,7 +36,7 @@ a
 
 h1 
 {
-  color: rgb(255, 234, 189);
+  color: rgb(255, 255, 255);
   font-family: verdana;
   font-size: 64px;
   position: relative; left: 2px; top: 2px;
@@ -45,7 +45,7 @@ h1
 
 .buttontext
 {
-  color: rgb(255, 234, 189);
+  color: rgb(255, 255, 255);
   font-family: verdana;
   font-size: 18px;
   position: relative;
@@ -54,7 +54,7 @@ h1
 
 .listtext
 {
-  color: rgb(255, 234, 189);
+  color: rgb(255, 255, 255);
   font-family: verdana;
   font-size: 14px;
   padding: 12px;
@@ -72,7 +72,7 @@ ul
 
 ul li
 {
-  color: rgb(255, 234, 189);
+  color: rgb(255, 255, 255);
   font-family: verdana;
   padding: 5px;
   font-size: 14px;
@@ -81,7 +81,7 @@ ul li
 
 .text
 {
-  color: rgb(255, 234, 189);
+  color: rgb(255, 255, 255);
   font-family: verdana;
   font-size: 14px;
   padding: 25px;
@@ -93,7 +93,7 @@ ul li
 
 #title
 {
-  color: rgb(255, 234, 189);
+  color: rgb(255, 255, 255);
   font-family: verdana;
   font-size: 32px;
   padding: 0;
@@ -103,7 +103,7 @@ ul li
 
 #subtitle
 {
-  color: rgb(255, 234, 189);
+  color: rgb(255, 255, 255);
   font-family: verdana;
   font-size: 16px;
   padding: 0;

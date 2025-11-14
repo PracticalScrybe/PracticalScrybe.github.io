@@ -168,13 +168,13 @@ function readyGifs()
 function lighten(evt)
 {
     //let's see if this works
-    evt.currentTarget.style.backgroundColor = "#4f4b60";
+    evt.currentTarget.style.backgroundColor = "rgba(59, 59, 59, 1)";
 }
 
 function darken(evt)
 {
     //let's see if this works
-    evt.currentTarget.style.backgroundColor = "#3b374c";
+    evt.currentTarget.style.backgroundColor = "rgba(39, 39, 39, 1)";
 }
 
 
@@ -237,13 +237,14 @@ async function loadButtons()
 
 function updateLanguage(evt)
 {
-    if(evt.value = "deutsch")
+
+    if(evt.value == "deutsch")
     {
        document.getElementById("on").textContent = "Aktuelle Projekte";
        document.getElementById("fi").textContent = "Fertige Projekte";
     }
 
-    else if(evt.value = "english")
+    else if(evt.value == "english")
     {
        document.getElementById("on").textContent = "Ongoing Projects";
        document.getElementById("fi").textContent = "Finished Projects";
@@ -253,7 +254,7 @@ function updateLanguage(evt)
     {
         document.getElementById("text0").textContent = intro[evt.value];
     }
-
+    
     else
     {
         for(const stat of stats)
@@ -294,13 +295,13 @@ function updateLanguage(evt)
 
 async function exchange(evt)
 {
-    if(evt.value = "deutsch")
+    if(evt.value == "deutsch")
     {
        document.getElementById("on").textContent = "Aktuelle Projekte";
        document.getElementById("fi").textContent = "Fertige Projekte";
     }
 
-    else if(evt.value = "english")
+    else if(evt.value == "english")
     {
        document.getElementById("on").textContent = "Ongoing Projects";
        document.getElementById("fi").textContent = "Finished Projects";
