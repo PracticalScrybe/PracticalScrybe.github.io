@@ -320,6 +320,14 @@ error {
 
 @media only screen and (max-width: 400px)
 {
+
+  .buttonsize
+  {
+    height: auto;
+    width: 25px;
+    margin: auto;
+  }
+
   #text0 {
   padding: 20px;
   padding-left: 25px;
@@ -332,6 +340,17 @@ error {
   padding-left: 25px;
   padding-top: 0px;
   width: 100%;
+  }
+
+  .container
+  {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: fit-content;
+  width: fit-content;
+  background-color:  rgb(39, 39, 39);
+  border-radius: 15px;
   }
 
 }
